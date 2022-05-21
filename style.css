@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.caixa_fundo{
+    width: 100%;
+    float: left;
+}
+.foto_fundo{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+}
+.corpo{
+    width: 100%;
+    float: left;
+    z-index: 5;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.caixa01{
+    width: 30%;
+    background-color: rgb(226, 226, 226);
+    background: linear-gradient(to top left, #080f16 15%, #ff9933 95%);
+    border-radius: 10px;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+.caixa_logo{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.logo{
+    height: 80px;
+    margin-top: 20px;
+
+}
+.caixa_email{
+    width: 100%;
+    float: left;
+}
+.input_email{
+    height: 25px;
+    width: 87%;
+    margin: 15px;
+    float: left;
+    border-radius: 10px;
+}
+
+.input_select{
+    height: 32px;
+    width: 90%;
+    margin: 15px;
+    float: left;
+    border-radius: 10px;
+}
+.plv_email{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: monospace;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.caixa_input{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-family: monospace;
+}
+.caixa_btn_entrar{
+    width: 100%;
+    float: left;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+.botao_entar{
+    height: 25px;
+    width: 40%;
+    /* background: linear-gradient(to top right, #3c3c4b 0%, #f07a4b 100%); */
+    background-color: white;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+.plv_entar{
+    font-size: 16px;
+    font-weight: 900;
+    font-family: monospace;
+    margin-top: 2px;
+    padding-left: 55px;
+    float: left;
+    color: black;
+}
+.caixa_cadastre-se{
+    width: 100%;
+}
+.caixa_select_preferencias{
+    width: 90%;
+    float: left; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.select_preferencia{
+    float: left;
+    width: 45%;
+    padding-left: 10px;
+}
+.nm_select_preferencia{
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+}
+.caixa_concorda{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
